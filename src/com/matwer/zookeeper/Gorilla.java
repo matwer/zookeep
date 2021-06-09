@@ -1,6 +1,11 @@
 package com.matwer.zookeeper;
 
 public class Gorilla extends Mammal {
+	
+	public Gorilla() {
+		
+	}
+	
 	public void throwSomething() {
 		System.out.println("The gorilla throws something (you don't want to kno what it was)...");
 		energyLevel -= 5;

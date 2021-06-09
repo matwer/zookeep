@@ -8,7 +8,13 @@ package com.matwer.zookeeper;
  *
  */
 public class Mammal {
-	public int energyLevel = 100;
+	
+	public int energyLevel;
+	
+	public Mammal() {
+		energyLevel = 100;
+	}
+	
 	
 	public int displayEnergy() {
 		System.out.println("Energy level is " + energyLevel);
